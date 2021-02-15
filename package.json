@@ -1,0 +1,19 @@
+{
+  "name": "clgmob_backend",
+  "version": "1.0.0",
+  "description": "clgmob backend",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rupamsau0010/clgmob_backend.git"
+  },
+  "author": "Rupam Sau",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/rupamsau0010/clgmob_backend/issues"
+  },
+  "homepage": "https://github.com/rupamsau0010/clgmob_backend#readme"
+}

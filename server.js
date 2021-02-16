@@ -4,14 +4,14 @@ const express = require("express")
 const app = express()
 
 // Import local depandencies
-
+const mongoConnect = require("./configs/mongoDB")
 
 // middlewares
 app.use(express.json())
 app.use(express.urlencoded({extended: true}))
 
 // MongoDB Database connection
-
+mongoConnect()
 
 
 // local routes

@@ -5,6 +5,7 @@ const app = express()
 
 // Import local depandencies
 const mongoConnect = require("./configs/mongoDB")
+const getIPRoute = require("./routes/getIPRoute")
 
 // middlewares
 app.use(express.json())
@@ -15,7 +16,7 @@ mongoConnect()
 
 
 // local routes
-
+app.use("/ip/", getIPRoute)
 
 
 // Running the server on PORT 5000
